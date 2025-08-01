@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29CCD18C29068212001129BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD18B29068212001129BD /* AppDelegate.swift */; };
+		29CCD18E29068212001129BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD18D29068212001129BD /* SceneDelegate.swift */; };
+		29CCD19029068212001129BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD18F29068212001129BD /* ViewController.swift */; };
+		29CCD19329068212001129BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CCD19129068212001129BD /* Main.storyboard */; };
+		29CCD19529068216001129BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CCD19429068216001129BD /* Assets.xcassets */; };
+		29CCD19829068216001129BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CCD19629068216001129BD /* LaunchScreen.storyboard */; };
+		29CCD1A329068216001129BD /* FilimoTMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD1A229068216001129BD /* FilimoTMDBTests.swift */; };
+		29CCD1AD29068216001129BD /* FilimoTMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD1AC29068216001129BD /* FilimoTMDBUITests.swift */; };
+		29CCD1AF29068217001129BD /* FilimoTMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CCD1AE29068217001129BD /* FilimoTMDBUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29CCD19F29068216001129BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CCD18029068212001129BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CCD18729068212001129BD;
+			remoteInfo = FilimoTMDB;
+		};
+		29CCD1A929068216001129BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29CCD18029068212001129BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29CCD18729068212001129BD;
+			remoteInfo = FilimoTMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29CCD18829068212001129BD /* FilimoTMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilimoTMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CCD18B29068212001129BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29CCD18D29068212001129BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29CCD18F29068212001129BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29CCD19229068212001129BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CCD19429068216001129BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29CCD19729068216001129BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CCD19929068216001129BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CCD19E29068216001129BD /* FilimoTMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilimoTMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CCD1A229068216001129BD /* FilimoTMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilimoTMDBTests.swift; sourceTree = "<group>"; };
+		29CCD1A829068216001129BD /* FilimoTMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilimoTMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CCD1AC29068216001129BD /* FilimoTMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilimoTMDBUITests.swift; sourceTree = "<group>"; };
+		29CCD1AE29068217001129BD /* FilimoTMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilimoTMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CCD18529068212001129BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD19B29068216001129BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD1A529068216001129BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CCD17F29068212001129BD = {
+			isa = PBXGroup;
+			children = (
+				29CCD18A29068212001129BD /* FilimoTMDB */,
+				29CCD1A129068216001129BD /* FilimoTMDBTests */,
+				29CCD1AB29068216001129BD /* FilimoTMDBUITests */,
+				29CCD18929068212001129BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CCD18929068212001129BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CCD18829068212001129BD /* FilimoTMDB.app */,
+				29CCD19E29068216001129BD /* FilimoTMDBTests.xctest */,
+				29CCD1A829068216001129BD /* FilimoTMDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CCD18A29068212001129BD /* FilimoTMDB */ = {
+			isa = PBXGroup;
+			children = (
+				29CCD18B29068212001129BD /* AppDelegate.swift */,
+				29CCD18D29068212001129BD /* SceneDelegate.swift */,
+				29CCD18F29068212001129BD /* ViewController.swift */,
+				29CCD19129068212001129BD /* Main.storyboard */,
+				29CCD19429068216001129BD /* Assets.xcassets */,
+				29CCD19629068216001129BD /* LaunchScreen.storyboard */,
+				29CCD19929068216001129BD /* Info.plist */,
+			);
+			path = FilimoTMDB;
+			sourceTree = "<group>";
+		};
+		29CCD1A129068216001129BD /* FilimoTMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				29CCD1A229068216001129BD /* FilimoTMDBTests.swift */,
+			);
+			path = FilimoTMDBTests;
+			sourceTree = "<group>";
+		};
+		29CCD1AB29068216001129BD /* FilimoTMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29CCD1AC29068216001129BD /* FilimoTMDBUITests.swift */,
+				29CCD1AE29068217001129BD /* FilimoTMDBUITestsLaunchTests.swift */,
+			);
+			path = FilimoTMDBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CCD18729068212001129BD /* FilimoTMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CCD1B229068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDB" */;
+			buildPhases = (
+				29CCD18429068212001129BD /* Sources */,
+				29CCD18529068212001129BD /* Frameworks */,
+				29CCD18629068212001129BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilimoTMDB;
+			productName = FilimoTMDB;
+			productReference = 29CCD18829068212001129BD /* FilimoTMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29CCD19D29068216001129BD /* FilimoTMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CCD1B529068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDBTests" */;
+			buildPhases = (
+				29CCD19A29068216001129BD /* Sources */,
+				29CCD19B29068216001129BD /* Frameworks */,
+				29CCD19C29068216001129BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CCD1A029068216001129BD /* PBXTargetDependency */,
+			);
+			name = FilimoTMDBTests;
+			productName = FilimoTMDBTests;
+			productReference = 29CCD19E29068216001129BD /* FilimoTMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29CCD1A729068216001129BD /* FilimoTMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CCD1B829068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDBUITests" */;
+			buildPhases = (
+				29CCD1A429068216001129BD /* Sources */,
+				29CCD1A529068216001129BD /* Frameworks */,
+				29CCD1A629068216001129BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29CCD1AA29068216001129BD /* PBXTargetDependency */,
+			);
+			name = FilimoTMDBUITests;
+			productName = FilimoTMDBUITests;
+			productReference = 29CCD1A829068216001129BD /* FilimoTMDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CCD18029068212001129BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					29CCD18729068212001129BD = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					29CCD19D29068216001129BD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 29CCD18729068212001129BD;
+					};
+					29CCD1A729068216001129BD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 29CCD18729068212001129BD;
+					};
+				};
+			};
+			buildConfigurationList = 29CCD18329068212001129BD /* Build configuration list for PBXProject "FilimoTMDB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CCD17F29068212001129BD;
+			productRefGroup = 29CCD18929068212001129BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CCD18729068212001129BD /* FilimoTMDB */,
+				29CCD19D29068216001129BD /* FilimoTMDBTests */,
+				29CCD1A729068216001129BD /* FilimoTMDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CCD18629068212001129BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CCD19829068216001129BD /* LaunchScreen.storyboard in Resources */,
+				29CCD19529068216001129BD /* Assets.xcassets in Resources */,
+				29CCD19329068212001129BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD19C29068216001129BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD1A629068216001129BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CCD18429068212001129BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CCD19029068212001129BD /* ViewController.swift in Sources */,
+				29CCD18C29068212001129BD /* AppDelegate.swift in Sources */,
+				29CCD18E29068212001129BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD19A29068216001129BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CCD1A329068216001129BD /* FilimoTMDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CCD1A429068216001129BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CCD1AD29068216001129BD /* FilimoTMDBUITests.swift in Sources */,
+				29CCD1AF29068217001129BD /* FilimoTMDBUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29CCD1A029068216001129BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CCD18729068212001129BD /* FilimoTMDB */;
+			targetProxy = 29CCD19F29068216001129BD /* PBXContainerItemProxy */;
+		};
+		29CCD1AA29068216001129BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29CCD18729068212001129BD /* FilimoTMDB */;
+			targetProxy = 29CCD1A929068216001129BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29CCD19129068212001129BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CCD19229068212001129BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29CCD19629068216001129BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CCD19729068216001129BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CCD1B029068217001129BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29CCD1B129068217001129BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CCD1B329068217001129BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilimoTMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29CCD1B429068217001129BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FilimoTMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29CCD1B629068217001129BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilimoTMDB.app/FilimoTMDB";
+			};
+			name = Debug;
+		};
+		29CCD1B729068217001129BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilimoTMDB.app/FilimoTMDB";
+			};
+			name = Release;
+		};
+		29CCD1B929068217001129BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilimoTMDB;
+			};
+			name = Debug;
+		};
+		29CCD1BA29068217001129BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 274Q3U39V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmdb.assignment.FilimoTMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilimoTMDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CCD18329068212001129BD /* Build configuration list for PBXProject "FilimoTMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CCD1B029068217001129BD /* Debug */,
+				29CCD1B129068217001129BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CCD1B229068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CCD1B329068217001129BD /* Debug */,
+				29CCD1B429068217001129BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CCD1B529068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CCD1B629068217001129BD /* Debug */,
+				29CCD1B729068217001129BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CCD1B829068217001129BD /* Build configuration list for PBXNativeTarget "FilimoTMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CCD1B929068217001129BD /* Debug */,
+				29CCD1BA29068217001129BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CCD18029068212001129BD /* Project object */;
+}
